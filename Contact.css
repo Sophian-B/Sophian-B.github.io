@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image:url("serveur.jpeg");
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 7, 53, 0.639);
+    height: 125px;
+    width: 100%;
+    position: relative;
+}
+
+.nav-item{
+    margin-left: 160px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.OPC{
+    width: 10%;
+    height: 100%;
+}
+
+.contenaire{
+    margin: 5%;
+    background-color:rgba(0, 7, 53, 0.639) ;
+}
+
+
+
+.content{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.content a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(0, 7, 53, 0.639);
+    text-decoration: underline solid 1px whitesmoke;
+    background-color: rgba(0, 7, 53, 0.639);
+}

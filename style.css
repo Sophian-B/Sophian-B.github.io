@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image:url("serveur.jpeg");
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 7, 53, 0.639);
+    height: 125px;
+    width: 100%;
+    position: relative;
+}
+
+.nav-item{
+    margin-left: 160px;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+.nav-item.first {
+    margin-left: 100px;
+}
+
+.OPC{
+    width: 10%;
+    height: 100%;
+}
+
+.contenaire{
+    margin: 5%;
+    background-color:rgba(0, 7, 53, 0.639) ;
+    color: whitesmoke;
+    text-align: center;
+    font-size: larger;
+}
+.contenaire h1{
+    text-decoration: underline solid 1px whitesmoke;
+}
+
+.nav-bar a.OPC {
+    width: 10%;
+}
+.nav-bar a.OPC img.OPC{
+    width: 100%;
+}
+
+
+.Service{
+    color: whitesmoke;
+    font-size: x-large;
+    margin-top: 10%;
+    text-align: center;
+    background-color: rgba(0, 7, 53, 0.639);
+    margin: 5%;
+    
+}
+
+.letextelegal{
+    color: whitesmoke;   
+}
+
+.letextelegal h{
+    text-decoration: underline solid 1px white;
+}
+
+.content{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.content a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(0, 7, 53, 0.639);
+    text-decoration: underline solid 1px whitesmoke;
+    background-color: rgba(0, 7, 53, 0.639);
+    font-size: large;
+}
